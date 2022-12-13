@@ -18,8 +18,77 @@ html {
     color: var(--color-white);
 }
 
-/* Tree */
+.container {
+    width: 350px;
+    margin: 32px auto 0 auto;
+}
 
+img {
+    max-width: 100%;
+}
+
+/* Tree */
+.xmas-stage {
+    position: relative;
+    height: 600px;
+}
+
+.ball {
+  width: 65px;
+  position: absolute;
+  transition: scale 0.4s ease-in-out;
+}
+
+.ball:hover {
+    transform: scale(1.2);
+}
+
+.gift {
+  position: absolute;
+}
+
+.gift_1 {
+    bottom: 139px;
+    width: 120px;
+    right: 36px;
+}
+
+.gift_2 {
+    bottom: 139px;
+    left: 36px;
+    width: 120px;
+}
+
+.gift_3 {
+    bottom: 200px;
+    left: 68px;
+    width: 60px;
+}
+
+.ball_1 {
+    top: 240px;
+    left: 70px;
+}
+
+.ball_2 {
+    top: 165px;
+    left: 110px;
+}
+
+.ball_3 {
+    top: 170px;
+    right: 102px;
+}
+
+.ball_4 {
+    top: 240px;
+    right: 75px;
+}
+
+.ball_5 {
+    top: 280px;
+    left: 145px;
+}
 
 
 /* Panel */
