@@ -2,6 +2,10 @@
 :root {
     --color-blue: #3535EC;
     --color-white: #ffffff;
+    --color-blue-dark: #120945;
+    --color-yellow: #F2AD41;
+    --color-pink: #DE7EB6;
+    --font: 'Livvic', sans-serif;
 }
 
 /* CSS Reset */
@@ -16,6 +20,7 @@ html {
     background-color: var(--color-blue);
     line-height: 1;
     color: var(--color-white);
+    font-family: var(--font);
 }
 
 .container {
@@ -25,6 +30,12 @@ html {
 
 img {
     max-width: 100%;
+}
+
+h1 {
+    margin-bottom: 18px;
+    font-size: 30px;
+    color: var(--color-pink);
 }
 
 /* Tree */
@@ -90,5 +101,40 @@ img {
     left: 145px;
 }
 
-
 /* Panel */
+
+.panel {
+  display: grid;
+  grid-auto-rows: 1fr 1fr;
+  place-items: center;
+
+  background-color: var(--color-blue-dark);
+  margin: 40px 0;
+  width: 100%;
+  padding: 16px 0;
+
+  text-align: center;
+  border-radius: 8px;
+}
+
+.counter {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px;
+}
+
+.counter-block {
+    font-weight: 600;
+}
+
+.counter-block:last-child {
+    color: var(--color-yellow);
+}
+
+.counter-block-number {
+    font-size: 48px;
+}
+
+.counter-block-label {
+    font-size: 20px;
+}
