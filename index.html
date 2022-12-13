@@ -8,6 +8,11 @@
   <!-- Icon -->
   <link rel="icon" type="image/png" sizes="16x16" href="https://boolean.co.uk/favicon/favicon-16x16.png">
 
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Livvic:wght@500;600;700&display=swap" rel="stylesheet">
+
   <!-- Style -->
   <link rel="stylesheet" href="style.css" type="text/css" />
 
@@ -17,8 +22,33 @@
   <title>Coding Session | Xmas Counter</title>
 </head>
 <body>
-  <div class="container">
+  <main class="container">
     <!-- Panel Area -->
+    <div class="panel">
+      <h1>Xmas is coming</h1>
+
+      <div class="counter">
+        <div class="counter-block">
+          <div id="days" class="counter-block-number">00</div>
+          <div class="counter-block-label">Days</div>
+        </div>
+
+        <div class="counter-block">
+          <div id="hours" class="counter-block-number">00</div>
+          <div class="counter-block-label">Hours</div>
+        </div>
+
+        <div class="counter-block">
+          <div id="minutes" class="counter-block-number">00</div>
+          <div class="counter-block-label">Minutes</div>
+        </div>
+
+        <div class="counter-block">
+          <div id="seconds" class="counter-block-number">00</div>
+          <div class="counter-block-label">Seconds</div>
+        </div>
+      </div>
+    </div>
 
     <!-- Tree Area -->
     <div class="xmas-stage">
